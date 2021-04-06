@@ -12,7 +12,7 @@ namespace Phoebus_Automation.Test
         [Test]
         public void RunTest()
         {
-            Console.Out.WriteLine("Run succeeded");
+            Assert.Pass("Run succeeded");
         }
     }
 }
